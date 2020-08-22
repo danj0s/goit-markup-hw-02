@@ -1,0 +1,64 @@
+:root {
+  --color-accent: #2196f3;
+  --color-headline: #212121;
+  --color-text: #757575;
+}
+body {
+  list-style: none;
+  font-family: Roboto, sans-serif;
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--color-accent);
+}
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.team {
+  background-color: #f5f4fa;
+}
+footer {
+  background-color: #2f303a;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.headline {
+  color: var(--color-headline);
+}
+.color-text {
+  color: var(--color-text);
+}
+.contact {
+  color: #757575;
+}
+.adress {
+  color: #ffffff;
+}
+.web {
+  color: #2196f3;
+  font-family: raleway, sans-serif;
+}
+.studio {
+  color: #000000;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* Портфолио  */
+body {
+  list-style: none;
+}
+.site :hover,
+.site :focus {
+  color: #ffffff;
+  background-color: var(--color-accent);
+}
+.ssite {
+  background-color: #f5f4fa;
+}
