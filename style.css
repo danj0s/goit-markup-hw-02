@@ -2,6 +2,9 @@
   --color-accent: #2196f3;
   --color-headline: #212121;
   --color-text: #757575;
+  --color-team: #f5f4fa;
+  --color-hero: #2f303a;
+  --color-footer: #2f303a;
 }
 body {
   list-style: none;
@@ -12,14 +15,14 @@ body {
   color: var(--color-accent);
 }
 .hero {
-  background-color: #2f303a;
+  background-color: var(--color-hero);
   color: #ffffff;
 }
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--color-team);
 }
 footer {
-  background-color: #2f303a;
+  background-color: var(--color-footer);
 }
 ul {
   list-style: none;
@@ -53,6 +56,7 @@ a {
 /* Портфолио  */
 body {
   list-style: none;
+  font-family: Roboto, sans-serif;
 }
 .site :hover,
 .site :focus {
